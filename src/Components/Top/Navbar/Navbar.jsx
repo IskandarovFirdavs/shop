@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 import { NavLink, Link } from "react-router-dom";
 const NavbarDiv = styled("div")`
-  width: 77%;
+  width: 60%;
   height: 100%;
   align-items: center;
   justify-content: center;
@@ -89,7 +89,7 @@ const LeftSide = styled("div")`
   display: flex;
 `;
 const RightSide = styled("div")`
-  width: 75%;
+  width: 70%;
   justify-content: space-evenly;
   height: 100%;
   align-items: center;

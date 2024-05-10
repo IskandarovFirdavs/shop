@@ -39,7 +39,6 @@ function App() {
         <Route path="/beauty" element={<Beauty />}></Route>
         <Route path="/health" element={<Health />}></Route>
         <Route path="/sport" element={<Sport />}></Route>
-        <Route path="/question-answer" element={<Questions />}></Route>
         <Route path="/basket" element={<NotFound />}></Route>
         <Route path="/choosen" element={<NotFound />}></Route>
         <Route path="/sign-in" element={<SignIn />}></Route>

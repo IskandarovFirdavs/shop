@@ -116,9 +116,7 @@ const Header = () => {
         <LinksP style={{ color: "#a6a6a6" }}>
           We will deliver your order for free - in just 1 day!
         </LinksP>
-        <Links style={{ color: "orange" }} to={"/question-answer"}>
-          Question-answer
-        </Links>
+
         <Links to={"/my-orders"}>My orders</Links>
         <Languages>
           <EngIcon
