@@ -1,0 +1,45 @@
+.UlL {
+  padding: 0;
+  list-style: none;
+  display: table;
+  font: bold 14px/1.4 "Open Sans", arial, sans-serif;
+  width: 100%;
+  text-align: center;
+}
+.LiLi {
+  display: table-cell;
+  position: relative;
+}
+.Aa {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  display: inline-block;
+  padding: 15px 39px;
+  position: relative;
+}
+.Aa:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.Aa:hover:after {
+  width: 100%;
+  left: 0;
+}
+.Aa:focus {
+  color: orange;
+}
+@media screen and (max-height: 300px) {
+  UlL {
+    margin-top: 40px;
+  }
+}
