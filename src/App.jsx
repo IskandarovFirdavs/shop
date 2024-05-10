@@ -20,6 +20,7 @@ import Questions from "./Components/Center/Questions/Questions";
 import Search from "./Components/Search/Search";
 import NotFound from "./Components/Center/ChosKor/NotFound";
 import SignIn from "./Components/Center/Sign in/SignIn";
+import Pick from "./Components/Pick/Pick";
 function App() {
   return (
     <div>
@@ -27,6 +28,7 @@ function App() {
       <Navbar />
       <Types />
       <Routes>
+        <Route path="/pick-point" element={<Pick />}></Route>
         <Route path="/search" element={<Search />}></Route>
         <Route path="/shop/" element={<Slider slides={slidesData} />}></Route>
         <Route path="/electronics" element={<Electronics />}></Route>
