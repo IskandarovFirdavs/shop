@@ -20,7 +20,7 @@ const Inside = styled("div")`
 const Img = styled("img")`
   height: 150px;
 `;
-const Links = styled(Link)`
+const Links = styled(a)`
   text-decoration: none;
   color: black;
   font-size: 20px;
@@ -33,15 +33,9 @@ const Pick = () => {
   return (
     <All>
       <Inside>
-        <Links to={"https://iskandarovfirdavs.github.io/AllMaps/"}>
-          Tashkent
-        </Links>
-        <Links to={"https://iskandarovfirdavs.github.io/QarshiMap/"}>
-          Qarshi
-        </Links>
-        <Links to={"https://iskandarovfirdavs.github.io/TermizMap/"}>
-          Termiz
-        </Links>
+        <a href="https://iskandarovfirdavs.github.io/AllMaps/">Tashkent</a>
+        <a href="https://iskandarovfirdavs.github.io/QarshiMap/">Qarshi</a>
+        <a href="https://iskandarovfirdavs.github.io/TermizMap/">Termiz</a>
       </Inside>
       <Img
         src="https://cdn3d.iconscout.com/3d/premium/thumb/map-2872705-2409421.png"
